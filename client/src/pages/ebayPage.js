@@ -617,7 +617,7 @@ function goToAmazon() {
 }
 
 function logOut() {
-    window.location.href = '/'
+    window.location.href = '/Login'
 }
 
 export default EbayPage

@@ -163,7 +163,7 @@ function goToEbay() {
 }
 function logOut()
 {
-    window.location.href = '/'
+    window.location.href = '/Login'
 }
 
 export default HomePage

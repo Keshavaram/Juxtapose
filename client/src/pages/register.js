@@ -29,7 +29,7 @@ function App() {
         const data = await response.json()
 
         if (data.status === 'ok') {
-            history.push('/')
+            history.push('/Login')
         }
     }
 

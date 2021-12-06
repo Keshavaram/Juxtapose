@@ -26,7 +26,7 @@ function App() {
             localStorage.setItem('token', data.user)
             window.location.href = '/Home'
         } else {
-            alert('Please    check your username and password')
+            alert('Please check your username and password')
         }
     }
 

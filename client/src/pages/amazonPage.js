@@ -90,7 +90,7 @@ function goToHome() {
 }
 function logOut()
 {
-    window.location.href = '/'
+    window.location.href = '/Login'
 }
 
 export default AmazonPage
