@@ -1,0 +1,138 @@
+*
+{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+body{
+  background: #f1f5f8;
+  color : #222;
+}
+
+#heading
+{
+  font-size : 70px;
+  display: block;
+  margin-left : auto;
+  margin-right : auto;
+  width : 5.5em;
+  padding: 30px;
+}
+
+.topBar
+{
+  background-color: burlywood;
+}
+
+.secondHeading
+{
+  font-size: 20px;
+  display: block;
+  margin-left : auto;
+  margin-right : auto;
+  width : 5.5em;
+}
+
+.searchBar
+{
+  font-size : 40px;
+  font-family: cursive, fantasy;
+  border-radius : 1rem;
+  display: block;
+  margin : 2rem auto;
+  padding : 5px;
+  text-align : center;
+  border-style: none;
+}
+
+.compareBtn
+{
+  font-size: 30px;
+  border-radius: 2rem;
+  background-color: #fff;
+  display : block;
+  margin : 0 auto;
+  padding: 6px;
+}
+
+.phoneList
+{
+  width : 90vw;
+  max-width: 1170px;
+  margin : 5rem auto;
+  display : grid;
+  gap : 2rem;
+}
+@media screen and (min-width: 768px)
+{
+  .phoneList
+  {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.phone{
+  background: #fff;
+  border-radius: 1rem;
+  padding : 1rem 2rem;
+  font-family: "Liberation Serif", cursive;
+  margin: 10px;
+}
+
+a
+{
+  font-size : 25px;
+}
+a:link
+{
+  color : #222;
+}
+a:visited
+{
+  color : navy;
+}
+
+
+.generalBtn
+{
+  display: block;
+  margin-left : auto;
+  position: absolute;
+  font-size: 20px;
+  border-style: none;
+  background-color: navajowhite;
+  padding: 10px;
+}
+
+#amazonBtn
+{
+  position: absolute;
+  right : 4.8%;
+  bottom : 78%;
+}
+#ebayBtn
+{
+  position: absolute;
+  right : 0;
+  bottom : 78%;
+  border-radius : 0 0 10px 0;
+}
+#logOut
+{
+  position: absolute;
+  right : 0.5%;
+  top : 0.5%;
+  border-style: None;
+  font-size: 20px;
+  border-radius: 10px;
+  padding : 10px
+}
+
+.nav
+{
+  margin-right : 10px;
+  font-size: 20px;
+  border-style: none;
+  background-color: navajowhite;
+  padding: 10px;
+}
